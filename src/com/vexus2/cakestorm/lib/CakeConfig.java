@@ -102,11 +102,11 @@ public class CakeConfig implements PersistentStateComponent<CakeConfig> {
       identifierStringHashMap = new HashMap<CakeIdentifier, String>() {
         {
           put(CakeIdentifier.Controller, "/controllers/");
-          put(CakeIdentifier.View, "/views/");
+          put(CakeIdentifier.View, "/views_s/");
           put(CakeIdentifier.Model, "/models/");
           put(CakeIdentifier.Element, "elements/");
           put(CakeIdentifier.Layout, "layouts/");
-          put(CakeIdentifier.Helper, "/views/helpers/");
+          put(CakeIdentifier.Helper, "/views_s/helpers/");
           put(CakeIdentifier.Component, "/controllers/components/");
           put(CakeIdentifier.Behavior, "/models/behaviors/");
           put(CakeIdentifier.Plugin, "plugins/");
